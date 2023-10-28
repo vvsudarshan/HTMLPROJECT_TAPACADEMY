@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Form</title>
+    <link rel="icon" href="iconimg.png">
+</head>
+<body bgcolor="lightblue">
+    <form>
+        <fieldset>
+            <legend>Student Registation Form</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required placeholder="Ex:Sudarshan"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="ex:xxx@gmaol.com"><br>
+                <label for="num">Number</label>
+                <input type="number" name="num" id="num" required placeholder="64728987932"><br>
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" id="dob"><br>
+                <input type="reset">
+                <button>Next</button>
+        </fieldset>
+        <fieldset>
+            <legend>Education Details/Course Details</legend>
+                <label for="depth">Department</label>
+                <input type="radio" name="depth">Cs
+                <input type="radio" name="depth">ece
+                <input type="radio" name="depth">Mech
+                <input type="radio" name="depth">civil<br>
+                <label>YOP</label>
+                <select name="YOP">
+                    <option value="YOP">2017</option>
+                    <option value="YOP">2018</option>
+                    <option value="YOP">2019</option>
+                    <option value="YOP">2020</option>
+                    <option value="YOP">2021</option>
+                    <option value="YOP">2023</option>
+                </select><br>
+                <label>Select</label>
+                <select name="Course">
+                    <option value="pfs">Python Full Stack</option>
+                    <option value="jfs">Jva full Stack</option>
+                    <option value="cfs">C# fll stack</option>
+                    <option  value="mfs">mern full Stack</option>
+                </select><br>
+                <label>Mode</label><input type="checkbox" name="mode1" value="on">Online<input type="checkbox" name="mode2" value="off">Offline<br>
+                <label>Comment</label><br>
+                <textarea rows="3" cols="40"></textarea><br>
+                <input type="reset">
+                
+                <input type="submit">
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
